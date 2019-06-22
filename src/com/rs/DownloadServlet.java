@@ -13,7 +13,7 @@ public class DownloadServlet extends HttpServlet {
 
 	public void doGet(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
-        System.out.println("download servlet----");
+   //     System.out.println("download servlet----");
 		response.setContentType("text/html");
 		PrintWriter out = response.getWriter();
 		 File directory = new File("C:\\");
